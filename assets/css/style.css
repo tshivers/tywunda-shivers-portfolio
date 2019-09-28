@@ -12,8 +12,7 @@ body {
     border-style: solid;
     border-bottom: solid;
     border-color: #cccccc;
-    height: 80px;
-    margin-bottom: 3%
+    height: 70px;
 }
 
 #name {
@@ -23,7 +22,7 @@ body {
     background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
-    padding: 22px;
+    padding: 17px;
     float: left;
 }
 
@@ -37,8 +36,7 @@ a   {
     clear: inherit;
 }
 
-h2 {
-    margin: 0px 100px 0px;
+h2  {
     padding: 10px 0px;
     color: #4aaaa5;
     width: 20%;
@@ -47,49 +45,40 @@ h2 {
 
 img {
     float: left;
-    margin-left: 0px;
-    display: block;
-    padding: 0px 20px;  
+    padding: 10px; 
     text-align: center;
-    margin-left: 80px;
-    overflow: auto;
+    margin-left: 0px;
+    clear: both;    
 }
 
 .main-content {
-    width: 80%;
-    margin: 0px 100px;
-    padding: 0px;
+    box-sizing: border-box;
+    width: 800px;
+    margin: 20px 80px;
+    padding: 10px;
     color: #777777;
     font-family: Arial, Helvetica, sans-serif; 
     font-size: 12px;
-    text-align: left;
     background-color: #ffffff;
+    border-bottom: #777777;
     border: #dddddd;
 }
 
-.main-contact {
-    
-}
-
 #username {
-    width: 960px;
+    width: 930px;
     height: 10px;
     padding: 10px;
 }
 
 #email {
     margin: auto 0;
-    width: 960px;
+    width: 930px;
     height: 10px;
-    padding: 10px;
-}
-
-.main-portfolio {
-    width: 960px;
+    padding: 10px;font-size: 12px;
 }
 
 #message {
-    width: 960px;
+    width: 930px;
     height: 100px;
     padding: 10px;
     font-size: 12px;
