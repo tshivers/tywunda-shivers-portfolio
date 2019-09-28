@@ -1,19 +1,29 @@
 body {
-   margin: 0px;
+   margin: 40px 0px;
    padding: 0px;
    width: 960px;
-   padding-left: 140px;
+   padding-left: 100px;
+   border-color: #dddddd;
    background: url("../images/hotel-wallpaper.png");
 }
 
+.header {
+    background-color: #ffffff;
+    border-style: solid;
+    border-bottom: solid;
+    border-color: #cccccc;
+    height: 80px;
+    margin-bottom: 3%
+}
+
 #name {
-    width: 300px;
+    width: 285px;
     margin-top: 0px;
     background: 960px;
     background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
-    padding: 18px;
+    padding: 22px;
     float: left;
 }
 
@@ -28,6 +38,8 @@ a   {
 }
 
 h2 {
+    margin: 0px 100px 0px;
+    padding: 10px 0px;
     color: #4aaaa5;
     width: 20%;
     padding: 10px;
@@ -38,20 +50,58 @@ img {
     margin-left: 0px;
     display: block;
     padding: 0px 20px;  
-    text-align: left;
-    margin-left: 40px;
+    text-align: center;
+    margin-left: 80px;
     overflow: auto;
 }
 
 .main-content {
-    width: 960px;
+    width: 80%;
+    margin: 0px 100px;
+    padding: 0px;
     color: #777777;
     font-family: Arial, Helvetica, sans-serif; 
+    font-size: 12px;
     text-align: left;
+    background-color: #ffffff;
+    border: #dddddd;
+}
+
+.main-contact {
+    
+}
+
+#username {
+    width: 960px;
+    height: 10px;
+    padding: 10px;
+}
+
+#email {
+    margin: auto 0;
+    width: 960px;
+    height: 10px;
+    padding: 10px;
+}
+
+.main-portfolio {
+    width: 960px;
 }
 
 #message {
-    width: 100%;
+    width: 960px;
+    height: 100px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+#submit {
+    width: 10%;
+    background-color: #4aaaa5;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
 }
 
 .footer {

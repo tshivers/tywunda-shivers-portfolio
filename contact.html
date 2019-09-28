@@ -9,30 +9,38 @@
 </head>
 
 <body>
-    <h1 id="name">Tywunda Shivers</h1> 
-        
-    <ul>
-        <a href="index.html">About</a>
-        <a href="contact.html">Contact</a>
-        <a href="portfolio.html">Portfolio</a>
-    </ul> 
+    <div class="header">
+        <h1 id="name">Tywunda Shivers</h1> 
+            <ul>
+                <a href="index.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="portfolio.html">Portfolio</a>
+            </ul> 
+    </div>
     
-    <h2>Contact</h2>
+    <div class="main-contact">
+        <h2>Contact</h2>
     
     <br>
-        <form> 
-            <label>Name:<br />
-            <input type="text" id="username" name="name">
-            </label>
-            <br></br>
-            <label>Email:<br />
-            <input type="text" id="email" name="email">
-            </label>
-            <br></br>
-            <label>Message<br />
-            <input type="text" id="message" name="message"> 
-            </label> 
-        </form> 
+        <div class="contact">
+            <form action=" /action_page.php"> 
+                <label>Name:<br>
+                <input type="text" id="username" name="name">
+                </label>
+                <br></br>
+                <label>Email:<br>
+                <input type="text" id="email" name="email">
+                </label>
+                <br></br>
+                <label>Message<br />
+                <input type="text" id="message" name="message"> 
+                </label> 
+                <br></br>
+                <input type="submit" id="submit" name="submit">
+            </form> 
+        </div>
+
+        
         
     <div class="footer">
         <p>Copyright&#169;</p>
